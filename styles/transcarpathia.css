@@ -77,12 +77,4 @@ button:hover {
 .footer {
   text-align: center;
 }
-.carousel-item img {
-  height: 550px;
-  width: 100%;
-}
-.carousel-caption h5 {
-  color: #549657;
-  background: #ebd107;
-  padding: 10px;
-}
+
