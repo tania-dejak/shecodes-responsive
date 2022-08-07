@@ -1,0 +1,88 @@
+h1 {
+  text-align: center;
+  color: #549657;
+  font-size: 32px;
+}
+
+h2 {
+  text-align: center;
+  border: 1px solid #549657;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  color: #1b5700;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 14px;
+  margin: 20px 0 10px;
+}
+a {
+  text-decoration: none;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  background: #f2d102;
+  color: #1b5700;
+  opacity: 0.8;
+  outline: none;
+  font-size: 18px;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(8, 52, 16, 0.5);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.container-transcarathia {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px 60px;
+  background: linear-gradient(to top, #50cc7f 0%, #f5d100 100%);
+}
+.container ::selection {
+  background: #2ca200;
+  color: #fff;
+}
+.container ::-moz-selection {
+  background: #2ca200;
+  color: #fff;
+}
+
+.learn-more {
+  color: #1b5700;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+}
+.carousel-item img {
+  height: 550px;
+  width: 100%;
+}
+.carousel-caption h5 {
+  color: #549657;
+  background: #ebd107;
+  padding: 10px;
+}

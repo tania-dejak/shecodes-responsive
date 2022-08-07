@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+  color: var(--branding-color);
+  font-size: 48px;
+}
+
+h2 {
+  text-align: center;
+  border: 1px solid var(--branding-color);
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background: var(--branding-color);
+  color: white;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.container-yogurt {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 15px 60px;
+}
+
+.learn-more {
+  color: #7d51e8;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+}
