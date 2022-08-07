@@ -1,5 +1,3 @@
-/* font-family: 'Playfair Display', serif;
-font-family: 'Poppins', sans-serif; */
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
@@ -175,6 +173,13 @@ footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
 }
+
+.carousel-caption h5 {
+  color: #549657;
+  background: #ebd107;
+  padding: 10px;
+}
+
 @media (max-width: 900px) {
   h1,
   .content h1 {
